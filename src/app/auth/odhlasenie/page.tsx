@@ -1,10 +1,8 @@
 'use client';
 
-import { signOut } from "next-auth/react";
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-
-export const metadata = { title: "Odhlásenie | ZoškaSnap" };
+import { signOut } from 'next-auth/react';
 
 export default function SignOut() {
   return (
